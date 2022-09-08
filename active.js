@@ -1,7 +1,7 @@
-var a = prompt("Nhập Vào Họ và Tên Của Bạn");
-var b = prompt("Nhập vào ngày tháng năm sinh của Bạn");
+var a = prompt("Tài Khoản");
+var b = prompt("Mật Khẩu");
 
-if(a=="Trần Thị Mỹ Duyên" && b=="09/09/2003") {
+if((a=="DuyênsuperCute" )&&( b=="09092003" || b=="992003") || b=="09/09/2003" || b=="9/9/2003") {
     window.location.href = "start.html"
 } else {
     alert("Your Information is wrong");
